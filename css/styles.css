@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: 'PlayfairDisplay';
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* NAV MENU */
+
+.main-nav {
+    margin-top: 142px;
+    margin-bottom: 116px;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0 120px;
+}
+
+.main-meun-item {
+    display: inline-block;
+    padding: 0;
+    margin-right: 100px;
+}
+
+.main-meun-item:last-child {
+    margin-right: 0;
+}
+
+.main-meun-item a {
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    text-transform: uppercase;
+    line-height: 1.714;
+    font-size: 17px;
+    color: #626262;
+    text-decoration: none;
+}
+
+.main-meun-item a:hover,
+.main-meun-item a:focus {
+    color: #03a9f4;
+    outline: #03a9f4;
+}
+
+/* SECTION */
+
+.articles {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    margin-bottom: 58px;
+}
+
+article {
+    display: inline-block;
+    width: 420px;
+    padding: 0;
+    margin-right: 60px;
+}
+
+article:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 72px;
+}
+
+.article:nth-child(2n) {
+    margin-right: 0;
+}
+
+.articles h2 {
+    font-size: 30px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+
+.articles p {
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    margin: 0;
+    padding: 0;
+
+}
+
+p.category {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+
+/* LOAD MORE BUTTON */
+
+.load-more-btn {
+    font-size: 20px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    display: block;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    width: 162px;
+    height: 58px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.load-more-btn:hover,.load-more-btn:focus {
+    color: #03a9f4;
+    border-color: #03a9f4;
+    outline: transparent;
+
+}
