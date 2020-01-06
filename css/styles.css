@@ -20,14 +20,19 @@ body {
 
 /* NAV MENU */
 
+.main-header{
+    padding-top: 142px;
+}
+
 .main-nav {
-    margin-top: 142px;
     margin-bottom: 116px;
 }
 
 .main-menu {
     margin: 0;
-    padding: 0 120px;
+    padding: 0;
+    text-align: center;
+    font-size: 0;
 }
 
 .main-meun-item {
@@ -35,6 +40,11 @@ body {
     padding: 0;
     margin-right: 100px;
 }
+
+.main-meun-item a{
+    display: block;
+}
+
 
 .main-meun-item:last-child {
     margin-right: 0;
@@ -88,6 +98,13 @@ article:not(:nth-last-child(-n + 2)) {
     font-weight: normal;
 }
 
+.article img{
+    margin-bottom: 30px;
+}
+
+.article-title{
+    margin: 0;
+}
 
 .articles p {
     font-size: 14px;
@@ -103,6 +120,7 @@ p.category {
     font-family: "Ubuntu";
     color: #b4ad9e;
     text-transform: uppercase;
+    margin-bottom: 26px;
 }
 
 
