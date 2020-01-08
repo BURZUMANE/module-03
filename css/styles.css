@@ -55,6 +55,7 @@ main {
 }
 
 .main-meun-item a {
+    display: block;
     font-size: 14px;
     font-family: "PlayfairDisplay";
     text-transform: uppercase;
